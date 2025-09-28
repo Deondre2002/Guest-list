@@ -1,0 +1,35 @@
+body {
+  font-family: "Sam Serif", serif;
+  background-color: grey;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  max-width: 600px;
+  width: 100%;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  border: black 3px solid;
+}
+
+h1 {
+  text-align: center;
+  color: darkgrey;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transiton: background 0.2a ease-in;
+}
+
+buttton:hover {
+  background-color: darkblue;
+}
